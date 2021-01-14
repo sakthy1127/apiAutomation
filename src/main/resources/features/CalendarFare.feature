@@ -1,7 +1,6 @@
 @Regression
 Feature: Testing the Calendar Fare
 
-  @Sanity
   Scenario: check the status code and schema
     Given call the calender fare api with origin "DXB" destination "LHR" adult 1
     Then verify the status code for calender fare

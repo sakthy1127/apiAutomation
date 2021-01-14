@@ -9,10 +9,9 @@ import org.junit.runner.RunWith;
 
 import java.io.IOException;
 
-@Severity(SeverityLevel.BLOCKER)
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = {"com.tajawel"},
+        glue = {"com.tajawal"},
         features = "src/main/resources/features",
         monochrome = true,
         tags = "@Regression",
@@ -25,7 +24,7 @@ public class RegressionTest {
 
     @AfterClass
     public static void generateReport() throws IOException, InterruptedException {
-        String[] cmd = {"allure", "serve","/Users/sakthy/study/gitWorkspace/tajawal/apiAutomation/allure-results"};
+        String[] cmd = {"allure", "serve",System.getProperty("user.dir")+"/allure-results"};
         Runtime.getRuntime().exec(cmd);
     }
 
