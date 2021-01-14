@@ -12,7 +12,10 @@ JAVA, Maven, Alure needs to be installed in system.
     mvn -B -f pom.xml test -Dtest.tagnames=regression
 6) To run all test cases
     mvn test
-7)Test Reports will get generate under the allure-results
+    
+7)Test Reports will auto generated under the allure-results 
+ **Note:**
+The report will be displayed in the browser, if not plz go the project location and execute the below command "allure server" 
 
 
 Sample run report image is under sampleReportImage folder
