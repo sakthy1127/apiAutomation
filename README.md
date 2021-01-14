@@ -15,7 +15,7 @@ JAVA, Maven, Alure needs to be installed in system.
     
 7)Test Reports will auto generated under the allure-results 
  **Note:**
-The report will be displayed in the browser, if not plz go the project location and execute the below command "allure server" 
+The report will be displayed in the browser, if not plz go the project location and execute the below command "allure serve" 
 
 
 Sample run report image is under sampleReportImage folder
