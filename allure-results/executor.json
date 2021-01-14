@@ -1,0 +1,10 @@
+{
+  "name": "Local",
+  "type": "local",
+  "url": "http://example.org",
+  "buildOrder": 1,
+  "buildName": "allure-report_deploy#13",
+  "buildUrl": "http://example.org/build#13",
+  "reportUrl": "http://example.org/build#13/AllureReport",
+  "reportName": "allure report"
+}

@@ -1,0 +1,470 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "locations": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "googleType": {
+              "type": "object",
+              "properties": {
+                "typeNameEn": {
+                  "type": "string"
+                },
+                "typeNameAr": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "typeNameEn",
+                "typeNameAr"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "displayType",
+            "placeId",
+            "source",
+            "googleType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "googleType": {
+              "type": "object",
+              "properties": {
+                "typeNameEn": {
+                  "type": "string"
+                },
+                "typeNameAr": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "typeNameEn",
+                "typeNameAr"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "displayType",
+            "placeId",
+            "source",
+            "googleType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "googleType": {
+              "type": "object",
+              "properties": {
+                "typeNameEn": {
+                  "type": "string"
+                },
+                "typeNameAr": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "typeNameEn",
+                "typeNameAr"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "displayType",
+            "placeId",
+            "source",
+            "googleType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "googleType": {
+              "type": "object",
+              "properties": {
+                "typeNameEn": {
+                  "type": "string"
+                },
+                "typeNameAr": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "typeNameEn",
+                "typeNameAr"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "displayType",
+            "placeId",
+            "source",
+            "googleType"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "placeId": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "googleType": {
+              "type": "object",
+              "properties": {
+                "typeNameEn": {
+                  "type": "string"
+                },
+                "typeNameAr": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "typeNameEn",
+                "typeNameAr"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "displayType",
+            "placeId",
+            "source",
+            "googleType"
+          ]
+        }
+      ]
+    },
+    "hotels": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "hotelId": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "thumbnail_url": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "hotelId",
+            "name",
+            "city",
+            "country",
+            "thumbnail_url",
+            "displayType",
+            "latitude",
+            "longitude",
+            "isActive"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "hotelId": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "thumbnail_url": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "hotelId",
+            "name",
+            "city",
+            "country",
+            "thumbnail_url",
+            "displayType",
+            "latitude",
+            "longitude",
+            "isActive"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "hotelId": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "thumbnail_url": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "hotelId",
+            "name",
+            "city",
+            "country",
+            "thumbnail_url",
+            "displayType",
+            "latitude",
+            "longitude",
+            "isActive"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "hotelId": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "thumbnail_url": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "hotelId",
+            "name",
+            "city",
+            "country",
+            "thumbnail_url",
+            "displayType",
+            "latitude",
+            "longitude",
+            "isActive"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "hotelId": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "thumbnail_url": {
+              "type": "string"
+            },
+            "displayType": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "isActive": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "hotelId",
+            "name",
+            "city",
+            "country",
+            "thumbnail_url",
+            "displayType",
+            "latitude",
+            "longitude",
+            "isActive"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "locations",
+    "hotels"
+  ]
+}

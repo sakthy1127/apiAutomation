@@ -1,0 +1,1 @@
+Response: {"status":400,"title":"[Gateway:``] Bad Request","detail":{"pax.adult":["The pax.adult field is required."]},"type":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec10.html"}

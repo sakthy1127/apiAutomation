@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tajawel.runner.regression.RegressionTest" time="142.297" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sakthy/study/gitWorkspace/tajawal/apiAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sakthy/study/gitWorkspace/tajawal/apiAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/gkqq_lss4hv8g9_8sjhr1h2w0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/sakthy/javaTools/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sakthy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/sakthy/javaTools/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="library.jansi.path" value="/Users/sakthy/javaTools/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sakthy"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="user.name" value="sakthy"/>
+    <property name="java.class.path" value="/Users/sakthy/javaTools/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -f pom.xml test -P testing -Dtest.tagNames=regression"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="test.tagNames" value="regression"/>
+    <property name="java.ext.dirs" value="/Users/sakthy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/sakthy/javaTools/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="check the status code and schema" classname="Testing the Calendar Fare" time="13.262"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.537">
+    <failure message="STATUS CODE VALIDATION FAILED" type="java.lang.AssertionError">java.lang.AssertionError: STATUS CODE VALIDATION FAILED
+</failure>
+  </testcase>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.511"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.536"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.206"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.545"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="7.172"/>
+  <testcase name="Check the mandatory element validation" classname="Testing the Calendar Fare" time="6.382"/>
+  <testcase name="Check the optional element validation" classname="Testing the Calendar Fare" time="8.411"/>
+  <testcase name="Check the optional element validation" classname="Testing the Calendar Fare" time="6.986"/>
+  <testcase name="Check the optional element validation" classname="Testing the Calendar Fare" time="7.059"/>
+  <testcase name="Check the optional element validation" classname="Testing the Calendar Fare" time="6.53"/>
+  <testcase name="Check the optional element validation" classname="Testing the Calendar Fare" time="6.643"/>
+  <testcase name="verify get autocomplete resposne code" classname="Get AutoComplete" time="7.67"/>
+  <testcase name="To verify the response structure" classname="Get AutoComplete" time="7.732"/>
+  <testcase name="To Verify the location and hotel count in the resposne" classname="Get AutoComplete" time="6.222"/>
+  <testcase name="To Verify the location and hotel count in the resposne" classname="Get AutoComplete" time="6.36"/>
+  <testcase name="verify the display type for hotel and location" classname="Get AutoComplete" time="6.306"/>
+  <testcase name="verify the display type for hotel and location" classname="Get AutoComplete" time="6.267"/>
+  <testcase name="verify the display type for hotel and location" classname="Get AutoComplete" time="6.347"/>
+</testsuite>

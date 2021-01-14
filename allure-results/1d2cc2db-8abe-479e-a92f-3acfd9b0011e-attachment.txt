@@ -1,0 +1,1 @@
+Request: {"leg":[{"originId":"DXB","destinationId":"LHR","departureFrom":"2021-01-15","departureTo":"2021-01-15"}],"cabin":"Economy","pax":{"adult":1,"child":0,"infant":0},"stops":[],"airline":[],"timeSlots":{},"airports":{}}

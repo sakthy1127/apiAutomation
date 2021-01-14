@@ -1,0 +1,121 @@
+{
+  "locations": [
+    {
+      "name": "Chennai",
+      "city": "Tamil Nadu",
+      "country": "India",
+      "displayType": "Location",
+      "placeId": "ChIJYTN9T-plUjoRM9RjaAunYW4",
+      "source": "google",
+      "googleType": {
+        "typeNameEn": "City",
+        "typeNameAr": "مدينة"
+      }
+    },
+    {
+      "name": "Chernobyl",
+      "city": "Kyiv Oblast",
+      "country": "Ukraine",
+      "displayType": "Location",
+      "placeId": "ChIJz6uY6ACPKkcRLF3926vOvBQ",
+      "source": "google",
+      "googleType": {
+        "typeNameEn": "City",
+        "typeNameAr": "مدينة"
+      }
+    },
+    {
+      "name": "Chemnitz",
+      "city": "Chemnitz",
+      "country": "Germany",
+      "displayType": "Location",
+      "placeId": "ChIJ6Z39AV9Gp0cRHNF1CSj43VE",
+      "source": "google",
+      "googleType": {
+        "typeNameEn": "City",
+        "typeNameAr": "مدينة"
+      }
+    },
+    {
+      "name": "Chester",
+      "city": "Chester",
+      "country": "UK",
+      "displayType": "Location",
+      "placeId": "ChIJafWcYtnBekgRn_jYjbNsYkk",
+      "source": "google",
+      "googleType": {
+        "typeNameEn": "City",
+        "typeNameAr": "مدينة"
+      }
+    },
+    {
+      "name": "Cheyenne",
+      "city": "WY",
+      "country": "USA",
+      "displayType": "Location",
+      "placeId": "ChIJk-9zLnY4b4cRKy2Xj0EwCrE",
+      "source": "google",
+      "googleType": {
+        "typeNameEn": "City",
+        "typeNameAr": "مدينة"
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "hotelId": 1543346,
+      "name": "Chestnut Farm by RedAwning",
+      "city": "Plymouth",
+      "country": "United States",
+      "thumbnail_url": "https://i.travelapi.com/hotels/20000000/19510000/19504400/19504313/00941ba0_z.jpg",
+      "displayType": "Hotel",
+      "latitude": 43.53923,
+      "longitude": -72.74507,
+      "isActive": true
+    },
+    {
+      "hotelId": 1019123,
+      "name": "CheckVienna GroÃ e Schiffgasse",
+      "city": "Vienna",
+      "country": "Austria",
+      "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4034172/1_1.jpg",
+      "displayType": "Hotel",
+      "latitude": 48.21683688401733,
+      "longitude": 16.37540492700101,
+      "isActive": true
+    },
+    {
+      "hotelId": 1547011,
+      "name": "Cheng Backpacker Hostel Boun Ngin",
+      "city": "Luang Prabang",
+      "country": "Lao People's Democratic Republic",
+      "thumbnail_url": "https://i.travelapi.com/hotels/20000000/19450000/19440600/19440587/475221cf_z.jpg",
+      "displayType": "Hotel",
+      "latitude": 19.885401,
+      "longitude": 102.131647,
+      "isActive": true
+    },
+    {
+      "hotelId": 1735811,
+      "name": "Chez Michel Et Michele",
+      "city": "Calan",
+      "country": "France",
+      "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/616b141f-4137-4193-ba07-755aefaf6f65.jpeg",
+      "displayType": "Hotel",
+      "latitude": 47.87513,
+      "longitude": -3.32338,
+      "isActive": true
+    },
+    {
+      "hotelId": 1731955,
+      "name": "Cheongju Myconos Pension",
+      "city": "Cheongju Si Chungcheongbuk Do",
+      "country": "North Korea",
+      "thumbnail_url": "",
+      "displayType": "Hotel",
+      "latitude": 36.69084,
+      "longitude": 127.63411,
+      "isActive": true
+    }
+  ]
+}

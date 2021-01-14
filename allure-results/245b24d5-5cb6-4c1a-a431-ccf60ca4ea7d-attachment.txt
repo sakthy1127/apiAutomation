@@ -1,0 +1,1 @@
+Response: {"status":400,"title":"[Gateway:``] Bad Request","detail":{"stops":["The stops must be an array."],"airline":["The airline must be an array."]},"type":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec10.html"}
